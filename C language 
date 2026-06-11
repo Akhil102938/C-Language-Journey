@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int marks[5] = {80, 75, 90, 85, 95};
+    int i, sum = 0;
+
+    for(i = 0; i < 5; i++)
+    {
+        sum = sum + marks[i];
+    }
+
+    printf("Total = %d", sum);
+
+    return 0;
+}
