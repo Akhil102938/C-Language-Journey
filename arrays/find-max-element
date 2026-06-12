@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    int score[5] = {45, 78, 65, 92, 88};
+    int i, highest;
+
+    highest = score[0];
+
+    for(i = 1; i < 5; i++)
+    {
+        if(score[i] > highest)
+        {
+            highest = score[i];
+        }
+    }
+
+    printf("Highest Score = %d", highest);
+
+    return 0;
+}
