@@ -1,0 +1,27 @@
+#include<stdio.h>
+ int main()
+ {
+     int a[5]={23,42,56,93,13};
+     int i,fh,sh;
+     int b;
+     fh=a[0];
+     for(i=1;i<5;i++)
+     {
+         if(fh<a[i])
+         {
+             fh=a[i];
+         }
+     }
+     printf("first largest No. %d\n",fh);
+     
+     sh=a[0];
+     for(i=1;i<5;i++)
+     {
+         if(a[i] !=fh && a[i]>sh)
+         {
+             sh=a[i];
+         }
+     }
+     printf("second largest No. %d\n",sh);
+     return 0;
+ }
