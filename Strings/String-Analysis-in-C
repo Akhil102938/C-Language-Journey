@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char a[6]="akhil";
+int len,i=0,count=0;
+printf("%s\n",a);
+len=strlen(a);
+printf("string length:- %d\n",len);
+printf("first letter %c\n",a[0]);
+printf("last letter %c\n",a[len-1]);
+while(a[i] !='\0')
+{
+if(a[i]=='a' || a[i]=='e' || a[i]=='i' || a[i]=='o' || a[i]=='u')
+{
+count++;
+}
+i++;
+}
+printf("Vowels = %d\n", count);
+return 0;
+}
