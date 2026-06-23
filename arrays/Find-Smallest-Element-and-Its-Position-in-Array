@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+    int a[5] = {-2, 6, -9, 3, -1};
+    int i, sn, pos;
+
+    sn = a[0];
+    pos = 0;
+
+    for(i = 0; i < 5; i++)
+    {
+        if(a[i] < sn)
+        {
+            sn = a[i];
+            pos = i;
+        }
+    }
+
+    printf("Smallest number = %d\n", sn);
+    printf("Position = %d\n", pos);
+
+    return 0;
+}
