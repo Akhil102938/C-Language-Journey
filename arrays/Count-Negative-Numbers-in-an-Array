@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int count = 0, n, i;
+    printf("Enter size of array: ");
+    scanf("%d", &n);
+    int a[n];
+    printf("Enter array elements:\n");
+    for(i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+    for(i = 0; i < n; i++)
+    {
+        if(a[i] < 0)
+        {
+            count++;
+        }
+    }
+    printf("Entered elements are: ");
+    for(i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
+    printf("\nNo. of negative numbers = %d", count);
+    return 0;
+}
