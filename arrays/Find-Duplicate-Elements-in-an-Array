@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a[7]={10,20,30,20,40,30,50};
+    int i,j;
+    for(i = 0; i < 7; i++)
+     {
+         for(j = i + 1; j < 7; j++)
+        {
+            if(a[i]==a[j])
+            {
+             printf("%d ", a[i]);
+            }
+        }
+     }
+  return 0;
+}
