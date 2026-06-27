@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+int main()
+{
+    int a[7] = {10,20,30,20,40,30,50};
+    int n = 7;
+    int i, j, k;
+
+    for(i = 0; i < n; i++)
+    {
+        for(j = i + 1; j < n; j++)
+        {
+            if(a[i] == a[j])
+            {
+                // Shift elements to the left
+                for(k = j; k < n - 1; k++)
+                {
+                    a[k] = a[k + 1];
+                }
+
+                n--;   // Reduce array size
+                j--;   // Check the current position again
+            }
+        }
+    }
+
+    printf("Array after removing duplicates:\n");
+
+    for(i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
+
+    return 0;
+}
