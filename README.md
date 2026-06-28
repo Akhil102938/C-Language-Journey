@@ -1,29 +1,57 @@
-# Merge Two Arrays Into One Array
+C Language Journey 🚀
 
-## Description
-This program merges two integer arrays into a third array. It first copies all elements from the first array and then appends the elements of the second array.
+Welcome to my C Language Journey repository!
 
-## Concepts Used
-- Arrays
-- for Loop
-- Array Traversal
-- Array Merging
+This repository documents my progress as I learn the C programming language. I upload programs regularly to strengthen my understanding of programming concepts through consistent practice.
 
-## Algorithm
-1. Declare two arrays with values.
-2. Create a third array with enough size to store both arrays.
-3. Copy the first array into the third array.
-4. Copy the second array into the remaining positions of the third array.
-5. Print the merged array.
+📚 Topics Covered
 
-## Example
+🔢 Arrays
 
-Input:
-Array 1: 10 20 30
-Array 2: 40 50 60
+- Finding Data in Arrays
+- Find Maximum Element
+- Sum of Array
+- Find Second Largest Number
+- Count Repeated Elements
+- Count Negative Numbers
+- Count Elements Greater Than K
+- Find Duplicate Elements
+- Remove Duplicate Elements
+- Find Frequency of an Element
+- Find Smallest Element and Its Position
+- Merge Two Arrays Into One Array
 
-Output:
-10 20 30 40 50 60
+🔤 Strings
 
-## Language
-C
+- Reverse String
+- Count Vowels in a String
+- String Analysis
+- String Length, First and Last Character
+- Concatenate Two Strings Using "strcat()"
+- Password Verification Using "strcmp()"
+- Palindrome Checker
+
+🎯 Goals
+
+- Learn C programming from beginner to advanced.
+- Improve logical thinking and problem-solving skills.
+- Practice coding every day.
+- Build a strong GitHub portfolio.
+
+🛠️ Technologies Used
+
+- Programming Language: C
+- Compiler: GCC / Code::Blocks
+- Version Control: Git & GitHub
+
+📈 Progress
+
+I update this repository regularly by adding new C programs and improving my coding skills through daily practice.
+
+🤝 Feedback
+
+Suggestions and improvements are always welcome. Feel free to explore the repository and share your feedback.
+
+---
+
+⭐ If you find this repository helpful, consider giving it a star!
