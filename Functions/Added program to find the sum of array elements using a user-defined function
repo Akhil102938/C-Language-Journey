@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int sumArray(int a[], int n)
+{
+    int sum=0,i;
+    
+    sum=0;
+    
+    for(i=0;i<n;i++)
+    {
+        
+        sum=sum+a[i];
+        
+    }
+    
+    printf("Sum of arrays= %d",sum);
+    
+    return sum;
+}
+
+int main()
+{
+    int a[5] = {10,20,30,40,50};
+    
+    sumArray(a,5);
+    
+    return 0;
+}
