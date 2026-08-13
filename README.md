@@ -1,176 +1,264 @@
-# C Language Journey 🚀
+C & C++ Programming Journey 🚀
 
-> My journey of learning C Programming from beginner to advanced through examples, practice problems, and mini projects.
+«A hands-on journey from programming fundamentals to Data Structures & Algorithms using C and C++.»
 
----
-
-## 📖 About
-
-This repository contains all the C programs I have written while learning C programming.
-
-The main goal of this repository is to improve my:
-- Problem Solving
-- Logic Building
-- Programming Fundamentals
-- Data Structures Basics
-
-Every program is written by me while practicing different C concepts.
+"C" (https://img.shields.io/badge/C-Programming-blue?style=flat-square&logo=c)
+"C++" (https://img.shields.io/badge/C++-Programming-blue?style=flat-square&logo=cplusplus)
+"GCC" (https://img.shields.io/badge/Compiler-GCC%2FG++-orange?style=flat-square&logo=gnu)
+"DSA" (https://img.shields.io/badge/Focus-DSA-success?style=flat-square)
 
 ---
 
-## 📂 Repository Structure
+📌 About This Repository
 
-```
-C-Language-Journey
+This repository documents my journey of learning C and C++ programming through consistent practice and problem solving.
+
+It contains programs and solutions covering:
+
+- Programming fundamentals
+- Arrays and strings
+- Functions and pointers
+- Structures
+- Dynamic Memory Allocation
+- C++ STL
+- Data Structures & Algorithms
+- Algorithmic problem solving
+
+Every program is written, tested, and organized as part of my learning process.
+
+🎯 Main Focus
+
+«Learn → Practice → Build Logic → Solve Problems → Improve»
+
+---
+
+📂 Repository Structure
+
+C-Cpp-Programming-Journey/
 │
-├── Arrays
-│   ├── Sum of Array
-│   ├── Maximum Element
-│   ├── Second Largest Element
-│   ├── Second Smallest Element
-│   ├── Duplicate Elements
-│   ├── Common Elements
-│   ├── Array Rotation
-│   ├── Merge Two Arrays
-│   └── More...
+├── C/
+│   ├── Basics/
+│   ├── Arrays/
+│   ├── Strings/
+│   ├── Functions/
+│   ├── Pointers/
+│   ├── Structure/
+│   └── DMA/
 │
-├── Strings
-│   ├── Reverse String
-│   ├── Palindrome
-│   ├── String Length
-│   ├── Count Vowels
-│   ├── Password Verification
-│   └── More...
+├── C++/
+│   ├── Basics/
+│   └── STL/
 │
-├── Functions
-│   ├── Factorial
-│   ├── Square
-│   ├── Maximum in Array
-│   ├── Sum of Array
-│   └── More...
-│
-├── DSA
-│   └── Array Problems
+├── DSA/
+│   ├── Arrays/
+│   ├── Strings/
+│   ├── LinkedList/
+│   └── cpp/
 │
 └── README.md
-```
 
 ---
 
-## 📚 Topics Covered
+📚 Topics Covered
 
-### ✅ Basics
-- Variables
-- Data Types
-- Operators
+🔹 C Programming Fundamentals
+
+- Variables & Data Types
 - Input & Output
-- Decision Making
+- Operators
+- Conditional Statements
 - Loops
-
-### ✅ Functions
-- Function Declaration
-- Function Definition
-- Function Calling
-- Passing Arrays to Functions
-- Return Values
-
-### ✅ Arrays
-- Searching
-- Maximum & Minimum
-- Second Largest
-- Second Smallest
-- Duplicate Elements
-- Common Elements
-- Merge Arrays
-- Array Rotation
-- Frequency Count
-- Missing Element
-- Move Zeros
-
-### ✅ Strings
-- String Length
-- Reverse String
-- Palindrome
-- Count Vowels
-- Concatenation
-- Password Verification
-- Character Analysis
-
-### ✅ DSA Practice
-- Array Based Problems
-- Logic Building
-- Interview Style Questions
+- Functions
+- Pointers
+- Strings
+- Structures
 
 ---
 
-## 🛠️ Language Used
+🔹 Arrays
 
-- C Programming Language
-- GCC Compiler
+Programs and problems involving:
 
----
-
-## 🎯 Learning Goal
-
-My goal is to master C Programming by writing programs every day and building a strong foundation before moving to:
-
-- C++
-- Data Structures
-- Algorithms
-- Competitive Programming
-
----
-
-## 📈 Progress
-
-| Topic | Status |
-|-------|--------|
-| Basics | ✅ Completed |
-| Loops | ✅ Completed |
-| Arrays | ✅ Completed |
-| Strings | ✅ Completed |
-| Functions | ✅ Completed |
-| Pointers | ⏳ Coming Soon |
-| Structures | ⏳ Coming Soon |
-| File Handling | ⏳ Coming Soon |
-| Dynamic Memory Allocation | ⏳ Coming Soon |
+- Array traversal
+- Sum of array elements
+- Maximum & minimum elements
+- Second largest & second smallest
+- Finding positions
+- Left & right rotation
+- Merging arrays
+- Counting elements
+- Counting elements greater than "K"
+- Negative, positive & zero elements
+- Duplicate elements
+- Common elements
 
 ---
 
-## 💡 Repository Features
+🔹 Structures
 
-- Beginner Friendly
-- Clean Code
-- Well Organized
-- Easy to Understand
-- Practice Programs
-- Logic Building Questions
+Practical programs using structures:
 
----
-
-## ⭐ Future Plans
-
-- Complete Advanced C
-- Learn Data Structures
-- Solve 100+ C Problems
-- Build Mini Projects
-- Start C++
+- Student information system
+- Student management system
+- Array of structures
+- Finding the youngest student
+- Finding highest marks
 
 ---
 
-## 🤝 Contributions
+🔹 Dynamic Memory Allocation
 
-This repository is mainly for my learning journey.
+Working with dynamically allocated memory using:
 
-Suggestions and improvements are always welcome.
-
----
-
-## 📬 Connect with Me
-
-GitHub:
-**https://github.com/Akhil102938**
+- "malloc()"
+- Pointers
+- Dynamic arrays
+- Memory allocation & manipulation
 
 ---
 
-# ⭐ If you found this repository helpful, don't forget to Star it!
+🔹 C++ & STL
+
+Transitioning from C to modern C++ and learning the Standard Template Library.
+
+Current topics include:
+
+- "vector"
+- Vector input & traversal
+- Element access
+- Dynamic containers
+- C → C++ logic transition
+
+---
+
+🔹 Data Structures & Algorithms
+
+Arrays
+
+- Two Pointer Technique
+- Sliding Window Technique
+- Leaders in an Array
+- Wave Form
+- Majority Element
+- Boyer-Moore Voting Algorithm
+
+Linked Lists
+
+- Cycle Detection
+- Floyd's Cycle Detection Algorithm
+
+Strings
+
+- Substring problems
+- Palindrome logic
+- Frequency analysis
+
+---
+
+🛠️ Languages & Tools
+
+Tool| Usage
+C| Programming Fundamentals
+C++| Modern Programming & DSA
+GCC| C Compiler
+G++| C++ Compiler
+Git| Version Control
+GitHub| Repository & Progress Tracking
+
+---
+
+📈 Learning Progress
+
+Topic| Status
+Programming Basics| ✅ Completed
+Loops & Conditions| ✅ Completed
+Arrays| ✅ Completed
+Strings| ✅ Completed
+Functions| ✅ Completed
+Structures| ✅ Completed
+Dynamic Memory Allocation| ✅ Completed
+C++ Basics| 🔄 In Progress
+C++ STL| 🔄 In Progress
+DSA| 🔄 In Progress
+File Handling| ⏳ Coming Soon
+Advanced DSA| ⏳ Future
+
+---
+
+🧠 What I'm Building
+
+This repository is more than a collection of programs.
+
+It is a record of my progression from writing basic programs to understanding:
+
+Programming Fundamentals
+        ↓
+Logic Building
+        ↓
+Problem Solving
+        ↓
+C Programming
+        ↓
+C++ Programming
+        ↓
+STL
+        ↓
+Data Structures
+        ↓
+Algorithms
+        ↓
+Advanced Problem Solving
+
+---
+
+🎯 Long-Term Goals
+
+My goal is to build a strong foundation in C, C++, Problem Solving, and DSA.
+
+Future Objectives
+
+- Master C++
+- Master STL
+- Strengthen problem-solving skills
+- Learn advanced Data Structures
+- Learn advanced Algorithms
+- Practice competitive programming
+- Prepare for technical interviews
+- Build real-world projects
+
+---
+
+📊 Repository Philosophy
+
+I believe programming is learned through practice, not just theory.
+
+So this repository follows a simple approach:
+
+«Understand the concept → Write the code → Debug it → Practice problems → Improve»
+
+Mistakes and bugs are part of the journey.
+Every solved problem represents another step forward. 🚀
+
+---
+
+🤝 Contributions
+
+This is primarily my personal learning repository.
+
+However, suggestions, improvements, and constructive feedback are always welcome.
+
+---
+
+🔗 Connect With Me
+
+GitHub: "Akhil102938" (https://github.com/Akhil102938)
+
+---
+
+⭐ Support
+
+If you find this learning journey useful or interesting, consider giving the repository a ⭐.
+
+Thanks for visiting! 🚀
+
+Keep Learning. Keep Coding. Keep Improving.
