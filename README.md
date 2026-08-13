@@ -2,12 +2,7 @@ C & C++ Programming Journey 🚀
 
 «A hands-on journey from programming fundamentals to Data Structures & Algorithms using C and C++.»
 
-"C" (https://img.shields.io/badge/C-Programming-blue?style=flat-square&logo=c)
-"C++" (https://img.shields.io/badge/C++-Programming-blue?style=flat-square&logo=cplusplus)
-"GCC" (https://img.shields.io/badge/Compiler-GCC%2FG++-orange?style=flat-square&logo=gnu)
-"DSA" (https://img.shields.io/badge/Focus-DSA-success?style=flat-square)
 
----
 
 📌 About This Repository
 
